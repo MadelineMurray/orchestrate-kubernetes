@@ -43,7 +43,7 @@ releases:
     namespace: {{ requiredEnv "TARGET_NAMESPACE" }}
     chart: helm-pegasys/core-stack-api
     atomic: true
-    version: 0.4.4
+    version: 0.5.0
     values:
       - values/api-common.yaml.gotmpl
       - values/tx-common-multitenancy.yaml.gotmpl
@@ -52,7 +52,7 @@ releases:
     namespace: {{ requiredEnv "TARGET_NAMESPACE" }}
     chart: helm-pegasys/core-stack-api
     atomic: true
-    version: 0.4.4
+    version: 0.5.0
     values:
       - values/api-common.yaml.gotmpl
       - values/tx-common-multitenancy.yaml.gotmpl
@@ -61,7 +61,7 @@ releases:
     namespace: {{ requiredEnv "TARGET_NAMESPACE" }}
     chart: helm-pegasys/core-stack-api
     atomic: true
-    version: 0.4.4
+    version: 0.5.0
     values:
       - values/api-common.yaml.gotmpl
       - values/tx-common-multitenancy.yaml.gotmpl
